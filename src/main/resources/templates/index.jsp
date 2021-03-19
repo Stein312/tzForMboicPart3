@@ -44,9 +44,9 @@
 
       <c:url value="/excel" var="excelController"/>
       <c:url value="/pdf" var="pdfController"/>
-      <a href="/excel">Excel</a>
+      <a href="<c:url value="/excel"/>">Excel</a>
       <br />
-      <a href="/pdf">PDF</a>
+      <a href="${pageContext.request.contextPath}/pdf">PDF</a>
 
     </div>
 
